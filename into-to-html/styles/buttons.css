@@ -1,0 +1,76 @@
+    .upload-button {
+      font-family: Roboto;
+      background-color: rgb(2, 99, 209);
+      color: white;
+      border: none;
+
+      margin-right: 30px;
+      margin-left: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+
+      border-radius: 4px;
+      cursor: pointer;
+      vertical-align: top;
+
+    }
+
+    .upload-button:hover {
+      background-color: blue(20, 100, 209);
+      opacity: 0.7;
+      transition: background-color 1s;
+    }
+
+    .upload-button:active {
+      background-color: rgb(15, 85, 177);
+      opacity: 0.5;
+    }
+
+    .join-button {
+      font-family: Roboto;
+      background-color: rgb(255, 255, 255);
+      border-color: rgb(41, 118, 211);
+      border-style: solid;
+      border-width: 1px;
+      color: rgb(41, 118, 211);
+
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-right: 30px;
+      margin-left: 30px;
+
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 8px;
+      vertical-align: top;
+    }
+
+    .join-button:hover {
+      background-color: rgb(9, 92, 165);
+      color: rgb(255, 255, 255);
+      transition: background-color 0.5s, color 0.5s;
+    }
+
+    .tweet-button {
+      font-family: Roboto;
+      background-color: rgb(46, 121, 212);
+      border-radius: 18px;
+      border: none;
+      color: white;
+      height: 36px;
+      width: 60px;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      margin: 8px;
+      vertical-align: top;
+    }
+
+    .tweet-button:hover {
+      box-shadow: 5px 5px 5px rgba(10, 10, 10, 0.15);
+      transition: box-shadow 0.15s;
+    }
